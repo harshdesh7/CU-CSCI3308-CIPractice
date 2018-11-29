@@ -1,7 +1,4 @@
 language: c
-
 compiler:
-  - clang
   - gcc
-
-script: make test
+script: make dep && make test
